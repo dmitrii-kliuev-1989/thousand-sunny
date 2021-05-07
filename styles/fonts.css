@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'InterLight';
+    src: url(../fonts/Inter/static/Inter-Light.ttf);
+}
+
+@font-face {
+    font-family: 'InterReg';
+    src: url(../fonts/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'InterBold';
+    src: url(../fonts/Inter/static/Inter-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'MulishLight';
+    src: url(../fonts/Mulish/static/Mulish-Light.ttf);
+}
+
+@font-face {
+    font-family: 'MulishReg';
+    src: url(../fonts/Mulish/static/Mulish-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'MulishBold';
+    src: url(../fonts/Mulish/static/Mulish-Bold.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'PlayfairDisplayReg';
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'PlayfairDisplayBold';
+    src: url(../fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
+    font-weight: bold;
+}

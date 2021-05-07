@@ -1,0 +1,90 @@
+.testimonials {
+    grid-area: testimonials;
+    padding: 229px 0 30px 0;
+    display: flex;
+    position: relative;
+}
+
+.testimonials__cross {
+    position: absolute;
+    bottom: 14px;
+    right: 704px;
+    height: 37px;
+    z-index: 1;
+}
+
+.testimonials__circleBig {
+    position: absolute;
+    top: 342px;
+    right: 324px;
+    width: 42px;
+}
+
+.testimonials__circleSmall {
+    position: absolute;
+    top: 547px;
+    left: 96px;
+    width: 22px;
+}
+
+.testimonials__info {
+    margin: 0 0 0 240px;
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonials__infoTitle {
+    font-size: 36px;
+    font-family: var(--f-playfair-display-bold);
+}
+
+.testimonials__infoStars {
+    width: 189px;
+    height: 24px;
+    margin: 124px 0 0 0;
+}
+
+.testimonials__infoDescription {
+    font-family: var(--f-mulish-reg);
+    margin: 31px 0 0 0;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.person__name {
+    margin: 51px 0 0 0;
+    font-family: var(--f-inter-bold);
+    font-size: 22px;
+}
+
+.person__company {
+    margin: 12px 0 0 0;
+    font-family: var(--f-inter-reg);
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.85);
+}
+
+.testimonials__image {
+    background: url(../images/png/edward.png) no-repeat top 129px left 189px;
+    padding: 129px 0 0 190px;
+    width: 384px;
+    height: 491px;
+    position: relative;
+}
+
+.testimonials__nav {
+    position: absolute;
+    width: 132px;
+    height: 60px;
+    background: var(--c-white);
+    bottom: 0;
+    right: 0;
+    border-radius: 16px 0 0 0;
+}
+
+.testimonials__navButtons {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+    padding: 20px 0 0 31px;
+}

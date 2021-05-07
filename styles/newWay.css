@@ -1,0 +1,33 @@
+.newWay {
+    grid-area: newWay;
+    padding: 270px 0 0 0;
+    display: flex;
+    position: relative;
+}
+
+.newWay__circle {
+    position: absolute;
+    bottom: 152px;
+    right: 351px;
+    height: 20px;
+}
+
+.newWay__cross {
+    position: absolute;
+    top: 270px;
+    right: 751px;
+}
+
+.newWay__image {
+    padding: 16px 0 0 141px;
+    width: 659px;
+    height: 534px;
+}
+
+.newWay__info {
+    padding: 0 0 0 102px;
+}
+
+.newWay__infoTitle {
+    padding: 112px 0 0 0;
+}

@@ -1,0 +1,25 @@
+:root {
+    --f-inter-light: 'InterLight';
+    --f-inter-reg: 'InterReg';
+    --f-inter-bold: 'InterBold';
+
+    --f-mulish-light: 'MulishLight';
+    --f-mulish-reg: 'MulishReg';
+    --f-mulish-bold: 'MulishBold';
+
+    --f-playfair-display-reg: 'PlayfairDisplayReg';
+    --f-playfair-display-bold: 'PlayfairDisplayBold';
+
+    --c-white: #FFFFFF;
+    --c-ebony-clay: #202336;
+    --c-heather: #B8BECD;
+    --c-tree-poppy: #FB8F1D;
+    --c-abbey: #4A4C53;
+    --c-bombay: #AFB0B9;
+    --c-topaz: #7D7987;
+    --c-tiber: #042521;
+    --c-gunsmoke: #80918E;
+    --c-gray: #848484;
+    --c-athens-gray: #F9F9FB;
+    --c-silver: #C4C4C4;
+}

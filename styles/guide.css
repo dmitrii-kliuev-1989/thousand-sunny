@@ -1,0 +1,35 @@
+.guide {
+    grid-area: guide;
+
+    padding: 150px 0 0 138px;
+    display: flex;
+    position: relative;
+}
+
+.guide__crossMiddleImage {
+    position: absolute;
+    transform: rotate(12.42deg);
+    bottom: 97px;
+    left: 658px;
+}
+
+.guide__crossSmallImage {
+    position: absolute;
+    right: 154px;
+    top: 210px;
+    width: 19px;
+}
+
+.guide__image {
+    padding: 23px 0 0 126px;
+    width: 599px;
+    height: 542px;
+}
+
+.guide__info {
+    padding: 0 0 0 102px;
+}
+
+.guide__infoTitle {
+    padding: 175px 0 0 0;
+}

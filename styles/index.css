@@ -1,0 +1,61 @@
+@import "normalize.css";
+@import "fonts.css";
+@import "variables.css";
+
+@import "header.css";
+@import "exploreAndTravel.css";
+@import "newWay.css";
+@import "destinations.css";
+@import "guide.css";
+@import "testimonials.css";
+@import "stories.css";
+@import "footer.css";
+
+.mainWrapper {
+    width: 1600px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas:
+"header"
+"exploreAndTravel"
+"newWay"
+"destinations"
+"guide"
+"testimonials"
+"stories"
+"footer";
+}
+
+.viewAll {
+    color: var(--c-tree-poppy);
+    padding: 14px 239px 0 0;
+    font-family: var(--f-inter-bold);
+    font-size: 17px;
+}
+
+.infoTitle {
+    margin: 0;
+    line-height: 50px;
+    font-family: var(--f-playfair-display-bold);
+    font-size: 36px;
+}
+
+.infoDescription {
+    padding: 20px 0 0 0;
+    font-family: var(--f-mulish-light);
+    color: var(--c-topaz);
+    font-size: 17px;
+    line-height: 30px;
+}
+
+.infoButton {
+    margin-top: 39px;
+    font-family: var(--f-inter-bold);
+    font-size: 16px;
+    border: none;
+    background-color: var(--c-tree-poppy);
+    width: 164px;
+    padding: 15px 0 15px 1px;
+    color: var(--c-white);
+    border-radius: 8px;
+}
