@@ -12,18 +12,18 @@
 @import "footer.css";
 
 .mainWrapper {
-    width: 1600px;
     margin: 0 auto;
     display: grid;
+    grid-template-columns: 1fr 1600px 1fr;
     grid-template-areas:
-"header"
-"exploreAndTravel"
-"newWay"
-"destinations"
-"guide"
-"testimonials"
-"stories"
-"footer";
+". header. "
+". exploreAndTravel. "
+". newWay ."
+". destinations ."
+". guide ."
+". testimonials ."
+". stories ."
+"footer footer footer";
 }
 
 .viewAll {
